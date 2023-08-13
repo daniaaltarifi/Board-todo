@@ -9,6 +9,7 @@ app.use(cors())
 require('dotenv').config()
 connectDB();
 app.use('/task',taskRouter)
+//server listen to port 5001
 app.listen(process.env.PORT,()=>{
     console.log(`server is running on port ${process.env.PORT}`)
 })
