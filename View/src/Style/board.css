@@ -1,0 +1,23 @@
+.btn_addTask{
+    display: flex;
+justify-content: end;
+}
+.btn_create_task{
+background-color: rgb(10, 10, 108);  
+  width:auto;
+    margin: 0 35px 50px 35px ;
+}
+.title_newTask{
+
+margin-left: 20px;}
+.btn_edit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px 50px 0 0;
+}
+.count_status{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 84%;
+}
